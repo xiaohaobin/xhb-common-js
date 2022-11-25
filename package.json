@@ -1,0 +1,33 @@
+{
+  "name": "xhb006",
+  "version": "1.2.0",
+  "description": "前端插件",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaohaobin/xhb-common-js.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "xiaohaobin",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/xiaohaobin/xhb-common-js/issues"
+  },
+  "homepage": "https://github.com/xiaohaobin/xhb-common-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "rollup": "^3.4.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {}
+}
